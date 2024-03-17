@@ -4,46 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hide and seek</title>
-    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/shop.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="varietyofproduct.css">
 </head>
 <body>
-    <img src="/img/biscuit.jpg" alt="hide and seek" width="500px" height="400px">
-    <h2>Hide and seek biscuit chocolate<br>Rs.30</h2>
+    <div id="main">
+        <div class="logo">
+            <img src="/img/shop.png" alt="logo" width="130px" height="130px" id="img">
+       
+            <div id="freshcart">
+                <b>FreshCart</b>
+            </div>
+        </div>
+    </div>
 
-    <br><br>
-    <select>
+<div class="container">
+    <div class="sup">
+        <div id="hideandseek1" class="demo mainshop">
+    <img src="/img/biscuit.jpg" alt="hide and seek" class="img">
+    <h2 class="rate">Hide and seek biscuit chocolate<br>Rs.30</h2>
+
+    <select class="option">
         <option value="30">30 ruppes chocolate</option>
         <option value="70">70 rupees chocolate</option>
         <option value="70">70 rupees Coffee flavor</option>
         <option value="40">40 rupees Cream</option>
 
     </select>
-    <br><br>
-    <button><h2>Buy</h2></button>
-    <button><h2>Add To Cart</h2></button>
-    <h3>About this item</h3>
-    <ul>
+    </div>
+    <button class="btn">Buy</button>
+    <button class="btn">Add To Cart</button>
+
+</div>
+    <h3 class="desc">About this item</h3>
+    <ul class="about">
         <li>Perfect as a tea time snack, this biscuit is great even whenever hunger strikes</li>
         <li>Crunchy biscuits loaded with chocolate chips</li>
         <li>Combination of taste and health</li>
         <li>ade from the highest quality ingredients</li>
         <li>No added preservative</li>
     </ul>
-
-    <img src="/img/hide and seek big.jpg" alt="70" width="500px" height="400px">
-    <h3>Hide and seek biscuit chocolate Rs.30</h3>
-    <button><h2>Buy</h2></button>
     <hr>
 
-    <img src="/img/hide and seek cream.jpg" alt="40" width="500px" height="400px">
-    <h3>Hide and seek biscuit cream Rs.40</h3>
-    <button><h2>Buy</h2></button>
-    <hr>
+</div>
 
-    <img src="/img/hide and seek cofee.jpg" alt="70" width="500px" height="400px">
-    <h3>Hide and seek biscuit coffee Rs.70</h3>
-    <button><h2>Buy</h2></button>
-    <br><br><hr>
-    <a href="snacks.html">back</a>
+<div class="sub">
+    <div id="hideandseek2" class="demo">
+    <img src="/img/hide and seek big.jpg" alt="70" class="img">
+    <h2 class="rate">Hide and seek biscuit chocolate Rs.30</h2>
+    <button class="btn">Buy</button>
+    </div>
+
+    <div id="hideandseek3" class="demo">
+    <img src="/img/hide and seek cream.jpg" alt="40" class="img">
+    <h2 class="rate">Hide and seek biscuit cream Rs.40</h2>
+    <button class="btn">Buy</button>
+    </div>
+
+    <div id="hideandseek4" class="demo">
+    <img src="/img/hide and seek cofee.jpg" alt="70" class="img">
+    <h2 class="rate">Hide and seek biscuit coffee Rs.70</h2>
+    <button class="btn">Buy</button>
+    </div>
+</div>
+
+    <hr>
+    <div id="back"> 
+        <img src="/img/back-button.png" alt="backicon" class="backicon">
+        <h3><a href="snacks.html" class="back">back to home</a></h3>
+    </div>
+
+
+</div>
 </body>
 </html>
